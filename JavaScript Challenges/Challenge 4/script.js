@@ -1,3 +1,4 @@
+
 const fiveNumbers = [ 1,2,3,4,5 ];
 const personalInfo =[
     name = "bernadette" ,
@@ -16,3 +17,8 @@ const additionalinfo =[
 ]
 const fullinfo =[...personalInfo, ...additionalinfo];
 console.log(fullinfo);
+
+const fivenumbers =[20, 30,40,50,60];
+const [firtsnum ,secondnum, thirdnum] = fivenumbers;
+const{ name , location , nationality} = personalinfo;
+
